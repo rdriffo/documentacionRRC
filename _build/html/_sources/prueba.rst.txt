@@ -1,0 +1,15 @@
+Título principal de la página
+=============================
+
+Documentación Super Pro
+-----------------------
+Aca damos inicio a una nueva etapa de Documentación con una metodologia mucho más profesional para tener una idea mas clara solo debes estudiar
+
+# su -
+
+
+Esto es una prueba de Documentación
+
+# ls -la
+
+$ cd ../var/log

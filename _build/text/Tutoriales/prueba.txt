@@ -1,0 +1,34 @@
+Docuentación de Prueba
+**********************
+
+
+Documentación Super Pro
+=======================
+
+Aca damos inicio a una nueva etapa de Documentación con una
+metodologia mucho más profesional para tener una idea mas clara solo
+debes estudiar
+
+# su -
+
+Esto es una prueba de Documentación
+
+# ls -la
+
+$ cd ../var/log
+
+This is really***very***important text.
+
+[imagen]
+
+   SELECT *
+   FROM unidad_reparticion
+   WHERE cod_unid_rep=1020;
+
+* Elemento 1
+
+* Elemento 2
+
+  * Elemento 2.1
+
+* Elemento 3

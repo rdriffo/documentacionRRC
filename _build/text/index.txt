@@ -1,0 +1,28 @@
+Bienvenido al la Docuentación de RRC
+************************************
+
+
+Docuentación
+============
+
+
+Contents:
+^^^^^^^^^
+
+* Docuentación de Prueba
+
+  * Documentación Super Pro
+
+* Documentación de Git
+
+  * Esto corresponde a otra prueba
+
+
+Indices and tables
+******************
+
+* Índice
+
+* Índice de Módulos
+
+* Página de Búsqueda

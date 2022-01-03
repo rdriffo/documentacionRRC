@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Librería de Documentación Sphinx &#8212; documentación de Documentador - 1</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Documentación de Git" href="README.html" />
+    <link rel="prev" title="Bienvenido al la Docuentación de RRC" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="README.html" title="Documentación de Git"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Bienvenido al la Docuentación de RRC"
+             accesskey="P">anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de Documentador - 1</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Librería de Documentación Sphinx</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="libreria-de-documentacion-sphinx">
+<h1>Librería de Documentación Sphinx<a class="headerlink" href="#libreria-de-documentacion-sphinx" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="instalacion-en-linux">
+<h2>Instalación en Linux<a class="headerlink" href="#instalacion-en-linux" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este manual corresponde la instalación de la librería Sphinx en sistema opertivo Linux.</p>
+<p>Prerequisitos</p>
+<ul class="simple">
+<li><p>Contar con una versión de phyton instalada</p></li>
+</ul>
+<p>Instalación con Pip</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -U sphinx
+</pre></div>
+</div>
+<p><strong>Creación del directorio de trabajo</strong></p>
+<p>Se debe crear un directorio de trabajo para poner estructura de archivos que necesita Sphinx para organizar un proyecto. Por lo general existe la convención de llamarlo, simplemente, doc. Entra en ese directorio</p>
+<p><strong>Crear la estructura con el comando</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sphinx-quickstart
+</pre></div>
+</div>
+<p>¡Estamos listos paa comenzar nuestra documentación..!</p>
+<p>Los directorios que comienzan con underscore son aquellos que tendrán archivos generados por Sphinx.
+El archivo Makefile se utilizará, como veremos, para automatizar el proceso de generación de la documentación. Un archivo clave es index.rst el cual servirá como página de bienvenida a la documentación, así como también de índice de los archivos de documentación</p>
+<p>Sphinx utiliza como source archivos tipo .rst creados con un lenguaje de marcas denominado reStructuredText.
+Es un formato similar a markdown, pero con una serie de marcas ampliadas especialmente diseñadas para facilitar el trabajo de documentación automática de código.
+Se puede encontrar más información en la documentación de Sphinx.</p>
+<p><strong>Indice de los Documentos</strong></p>
+<p>Una vez escrito los archivos en .rst, debemos indicar a sphinx donde debe encontrar dichos Documentos, esto lo definimos en el archivo index.rst</p>
+<p>Los archivos debe ir dentro de la directiva .. toctree::, debajo de :caption: Contents: (es relevante respetar la indentación como se muestra en el ejemplo).</p>
+<a class="reference internal image-reference" href="../_images/estructura.png"><img alt="alternate text" class="align-center" src="../_images/estructura.png" style="width: 400px; height: 300px;" /></a>
+<p>Esta es la prueba ..</p>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../index.html">Tabla de contenido</a></h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Librería de Documentación Sphinx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instalacion-en-linux">Instalación en Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="README.html">Documentación de Git</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../index.html"
+                        title="capítulo anterior">Bienvenido al la Docuentación de RRC</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="README.html"
+                        title="próximo capítulo">Documentación de Git</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Tutoriales/installation.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="README.html" title="Documentación de Git"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Bienvenido al la Docuentación de RRC"
+             >anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de Documentador - 1</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Librería de Documentación Sphinx</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2021, Sr. Rodrigo Riffo C..
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.1.2.
+    </div>
+  </body>
+</html>
